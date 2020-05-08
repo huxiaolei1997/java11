@@ -1,0 +1,22 @@
+.idea/
+*.iml
+target/
+*/target/
+syntax: glob
+*.jar
+rebel*.xml
+*.bak
+
+
+syntax: regexp
+.classpath
+.idea
+.project
+.settings
+.iml
+target
+.idea/
+*.iml
+target/
+*/target/
+.factorypath
