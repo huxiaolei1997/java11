@@ -17,6 +17,11 @@ public class ImageIoTester {
 
         List<Image> images = new ArrayList<Image>();
 
+        /**
+         * 后来在网上查找ImageIO用法知道，它可读取的图片类型是有限制的，可以读取图片的格式为：[BMP, bmp, jpg, JPG, wbmp, jpeg, png, PNG, JPEG, WBMP, GIF, gif]
+         * 可是文件后缀是jpg格式,按道理说应该支持啊,后来将文件下载下来放到notepad++上查看才发现前缀是:RIFF? WEBPVP8 这说明该文件的实际格式是webp格式.文件后缀名有时候不是实际的文件格式.
+         * 读取到null的时候证明不支持此图片格式
+         */
         for (String url : imgUrls) {
             images.add(ImageIO.read(new URL(url)));
         }
