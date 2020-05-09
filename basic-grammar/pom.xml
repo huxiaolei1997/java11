@@ -12,17 +12,17 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
-<!--    <properties>-->
-<!--        &lt;!&ndash; 指定编译版本 &ndash;&gt;-->
-<!--        <maven.compiler.source>11</maven.compiler.source>-->
-<!--        <maven.compiler.target>11</maven.compiler.target>-->
-<!--        <maven.compiler.release>11</maven.compiler.release>-->
-<!--        &lt;!&ndash; 文件复制时的编码 &ndash;&gt;-->
-<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-<!--        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
-<!--        &lt;!&ndash; 编译时的编码 &ndash;&gt;-->
-<!--        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>-->
-<!--    </properties>-->
+    <!--    <properties>-->
+    <!--        &lt;!&ndash; 指定编译版本 &ndash;&gt;-->
+    <!--        <maven.compiler.source>11</maven.compiler.source>-->
+    <!--        <maven.compiler.target>11</maven.compiler.target>-->
+    <!--        <maven.compiler.release>11</maven.compiler.release>-->
+    <!--        &lt;!&ndash; 文件复制时的编码 &ndash;&gt;-->
+    <!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
+    <!--        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
+    <!--        &lt;!&ndash; 编译时的编码 &ndash;&gt;-->
+    <!--        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>-->
+    <!--    </properties>-->
 
     <dependencies>
         <dependency>

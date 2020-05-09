@@ -1,11 +1,10 @@
 package com.xlh.image;
 
 import javax.imageio.ImageIO;
-import javax.imageio.stream.FileImageOutputStream;
 import java.awt.*;
 import java.awt.image.BaseMultiResolutionImage;
 import java.awt.image.MultiResolutionImage;
-import java.io.*;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
